@@ -1,6 +1,6 @@
 // functions for URL Slog
 
-function getURLSlog(words){
+export default function getURLSlog(words){
 	return words
 		.replace(/\s+/g, '-')
 		.toLowerCase();
